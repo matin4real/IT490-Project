@@ -1,0 +1,309 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: rgba(0,0,0,0.95);
+}
+.wrapper{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(homebackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+/* this section is for login and register.html */
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(back1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.signup-box {
+  width: 360px;
+  height: 420px;
+  margin: auto;
+  background-color: #1CEBE2;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: #EBE81C;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  font-size: 18px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-family: sans-serif;
+  outline: none;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+.submit-btn {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+
+
+/* this section is for the home.hmtl*/
+.hero-2{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(homebackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.header {
+	position: relative;
+	padding: 20px 50px 20px;
+	background-color: #202020;
+}
+
+.logo {
+	float: left;
+	font-size: 30px;
+	color: #fff;
+	margin-right: 40px;
+}
+
+.menu {
+	display: inline-block;
+}
+.menu ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+.menu li a {
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.menu li a:hover {
+    color: red;
+}
+.menu-btn {
+	float: right;
+	background-color: red;
+	line-height: 40px;
+	padding: 0px 20px;
+	text-decoration: none;
+	color: #fff;
+}
+.menu-btn:hover{
+	background-color: #fff;
+	color: red;
+}
+.content {
+    clear: both;
+    position: relative;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.page-content {
+    clear: both;
+    position: relative;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 200px);
+}
+.hero-1 h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* this section is for the contact.hmtl*/
+.contact-section{
+  background: url(contact.jpg) no-repeat center;
+  background-size: cover;
+  padding: 180px ;
+}
+.contact-section h1{
+  text-align: center;
+  color: #EF8206;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  font-size: 16px;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  font-family: sans-serif;
+  height: 200px;
+	width: 450px;
+  font-size: 16px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+
+
+
+
+.hero-3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 500px);
+}
+.hero-3 h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.hero-3 h1 span{
+    color:red;
+}
+.hero-3 h3 {
+	margin-top: 0;
+}
+.games-list {
+	display: flex;
+	overflow: hidden;
+	height: 20rem;
+}
+.game {
+	flex: 1;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.game-info {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(to right, rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.3));
+	height: 100px;
+	padding: 20px 0 10px;
+}
+.game-title {
+	margin: 0 0 10px;
+	color: #fff;
+}
+.game-btn {
+	background-color: rgba(255,255,255,0.15);
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 10px;
+	clear: both;
+	display: inline-block;
+}
+.game-btn:hover {
+	background-color:#fff;
+	color: red;
+}
